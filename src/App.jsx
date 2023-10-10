@@ -246,8 +246,8 @@ const App = () => {
                   <img src='./images/induvidual.png' alt='induvidual' />
                 </div>
                 <div className='content'>
-                  <p style={{ marginBottom: 0 }}>Induviduals</p>
-                  <div className='day'>With Keen Intrest in AI</div>
+                  <p style={{ marginBottom: 0 }}>Individuals</p>
+                  <div className='day'>With Keen Interest in AI</div>
                 </div>
               </div>
 
@@ -256,10 +256,9 @@ const App = () => {
                   <img src='./images/enterprenour.png' />
                 </div>
                 <div className='content'>
-                  <p style={{ marginBottom: 0 }}>EntrePreneurs/CxOs</p>
+                  <p style={{ marginBottom: 0 }}>Entrepreneurs/CxOs</p>
                   <div className='day'>
-                    WHo wish to understand complete capabalities of GPT Poweed
-                    AI
+                    Who wish to understand the complete capabilities of GPT-powered AI
                   </div>
                 </div>
               </div>
@@ -303,7 +302,7 @@ const App = () => {
               <img src='./images/Tick-Square.png' alt='checkbox' /> You would
               have{" "}
               <span style={{ backgroundColor: "#e97a7a", padding: "3px" }}>
-                developed these applicationes
+                developed these applications
               </span>
               yourself using AI.
             </p>
@@ -815,12 +814,10 @@ const App = () => {
               <p>
                 Satvik is an IIT Delhi graduate with over 4 years of experience
                 in various Data Science & AI roles with multi national banks.
-                His keen interest is sin the field of AI eduction where he
-                explore the potential application of AI. Satvik is also the
-                founder of ‘Build Fast with AI’ a community helping individuals
+                His keen interest is in the field of AI education, where he explores the potential applications of AI. Satvik is also the founder of ‘Build Fast with AI’ a community helping individuals
                 build AI applications. Satvik is currently consulting many
                 startups across various domains in building their AI
-                capabilities
+                capabilities.
               </p>
             </div>
             <div className='col-md-6 col-xs-12'>
