@@ -22,10 +22,11 @@ body {
   margin-top: -16px;
   background-color: #f2f6f6 !important;
   padding-bottom: 0;
+  width: 100% !important;
 }
 .container {
   max-width: 1220px;
-  padding: 10px 15px;
+  padding: 10px 15px 0px 10px;
   margin: auto;
 }
 .notification-background {
@@ -128,6 +129,7 @@ body {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 0;
+  text-wrap: wrap;
 }
 .whotakecourse .batch .content .day {
   color: #979797;
@@ -613,7 +615,7 @@ body {
   }
   .whotakecourse .batch {
     margin: 0;
-    width: fit-content;
+    /* width: fit-content; */
   }
   .logo {
     width: 45px;

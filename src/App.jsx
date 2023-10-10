@@ -1058,37 +1058,6 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className='popupform' id='form'>
-        <p>
-          <a>
-            <img
-              src='./images/close.png'
-              id='close'
-              style={{
-                width: "40px",
-                marginTop: "-20px",
-                float: "right",
-                marginRight: "-20px",
-              }}
-            />
-          </a>
-        </p>
-        <h3>Fill your details. We will get in touch shortly.</h3>
-        <form action='sendEmail.php' method='POST'>
-          <input type='text' id='name' placeholder='Name' />
-          <input type='text' id='mobile' placeholder='Mobile Number' />
-          <select id='mySelect'>
-            <option value=''>Prefrerred Mode of Learning</option>
-            <option value='online'>ONLINE</option>
-            <option value='offline'>OFFLINE</option>
-          </select>
-          <div className='formsubmit'>
-            <button type='button' id='submitButton' className='popupsubmit'>
-              Submit
-            </button>
-          </div>
-        </form>
-      </div>
     </div>
   );
 };
