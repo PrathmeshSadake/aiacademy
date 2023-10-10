@@ -123,6 +123,7 @@ body {
 .whotakecourse .batch .content {
   font-size: 18px;
   font-weight: 700;
+  word-break: break-all;
 }
 .whotakecourse .batch .content div:not(.day) {
   font-size: 14px;
