@@ -196,11 +196,11 @@ const App = () => {
             <div className='col-md-6 col-xs-12'>
               <span className='price'>
                 <span className='price'>
-                  <span>&#8377</span>14,999
+                  <span>&#8377;</span>14,999
                 </span>
                 <span className='fullprice'>
                   <del>
-                    <span>&#8377</span>20,999
+                    <span>&#8377;</span>20,999
                   </del>
                 </span>
               </span>
@@ -223,7 +223,7 @@ const App = () => {
               </p>
               <span>
                 <span className='price'>
-                  <span>&#8377</span>20,999
+                  <span>&#8377;</span>20,999
                 </span>
                 <span className='fullprice'>Oct 20th Onwards</span>
               </span>

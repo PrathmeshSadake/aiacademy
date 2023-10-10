@@ -12,10 +12,10 @@ const ContactForm = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "shashwatupadhyay",
-        "shashwat-portfolio",
+        "prathmeshbuildfastwithai",
+        "ai-academy-template",
         form.current,
-        "rc5rwbfKux-77Slax"
+        "9AQWkXrp7tz0-VKGe"
       )
       .then(
         () => {
