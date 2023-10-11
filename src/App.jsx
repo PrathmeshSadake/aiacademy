@@ -32,11 +32,11 @@ const App = () => {
 
       <div className='sec1'>
         <h1>
-          India&apos;s 1st
+          Bengaluru&apos;s 1st offline
           <br />
           <div>
             <img src='./images/chatgpt.png' alt='chtgpt' />
-            ChatGPT and Generative AI Full Course
+            ChatGPT Powerd AI Course
           </div>
         </h1>
       </div>
@@ -49,7 +49,7 @@ const App = () => {
             </div>
             <div className='weekend'>
               <img src='./images/cclassroom-coaching.png' alt='weekend' />
-              <p>Classroom / Online Training</p>
+              <p>Classroom Training</p>
             </div>
             <div className='weekend'>
               <img src='./images/b2p.png' alt='weekend' />
@@ -90,16 +90,6 @@ const App = () => {
             <img src='./images/users.png' alt='users' />
           </span>
         </div>
-        <div className='sec4'>
-          <div className='row'>
-            <div className='col-md-6 col-xs-12'>
-              <img src='./images/program-timings.png' alt='Program timings' />
-            </div>
-            <div className='col-md-6 col-xs-12 sec4background'>
-              <img src='./images/maps.png' alt='maps' />
-            </div>
-          </div>
-        </div>
         <div className='container'>
           <div className='sec5'>
             <h2>Upcoming Batches</h2>
@@ -108,8 +98,11 @@ const App = () => {
                 <div className='upcomingbatches'>
                   <div className='batch'>
                     <div className='date'>
+                      <span className="mark">Sold out</span>
                       <input type='radio' name='batchSelection' />
-                      25th Sep
+                      <p>
+                      29th Sep
+                      </p>
                     </div>
                     <div className='timings'>
                       <p>
@@ -123,7 +116,9 @@ const App = () => {
                   <div className='batch'>
                     <div className='date'>
                       <input type='radio' name='batchSelection' />
-                      25th Sep
+                      <p>
+                      28th Oct
+                      </p>
                     </div>
                     <div className='timings'>
                       <p>
@@ -137,7 +132,9 @@ const App = () => {
                   <div className='batch'>
                     <div className='date'>
                       <input type='radio' name='batchSelection' />
-                      25th Sep
+                      <p>
+                      18th Nov
+                      </p>
                     </div>
                     <div className='timings'>
                       <p>
@@ -240,7 +237,7 @@ const App = () => {
               </p>
             </div>
           </div>
-          <p className='whocandothiscourse'>Who can do This Course</p>
+          <p className='whocandothiscourse'>Who can do this course?</p>
           <div className='features'>
             <div className='whotakecourse'>
               <div className='batch'>
@@ -249,7 +246,7 @@ const App = () => {
                 </div>
                 <div className='content'>
                   <p style={{ marginBottom: 0 }}>Individuals</p>
-                  <div className='day'>With Keen Interest in AI</div>
+                  <div className='day'>With keen interest in AI</div>
                 </div>
               </div>
 
@@ -258,7 +255,7 @@ const App = () => {
                   <img src='./images/enterprenour.png' />
                 </div>
                 <div className='content'>
-                  <p style={{ marginBottom: 0 }}>Entrepreneurs/CxOs</p>
+                  <p style={{ marginBottom: 0 }}>Entrepreneurs / CXOs</p>
                   <div className='day'>
                     Who wish to understand the complete capabilities of
                     GPT-powered AI
@@ -271,8 +268,8 @@ const App = () => {
                   <img src='./images/developers.png' />
                 </div>
                 <div className='content'>
-                  <p style={{ marginBottom: 0 }}>Developers/PMs/Architects</p>
-                  <div className='day'>To be on top of the Game</div>
+                  <p style={{ marginBottom: 0 }}>Developers / PMs / Architects</p>
+                  <div className='day'>To be on top of the game</div>
                 </div>
               </div>
             </div>
@@ -296,10 +293,10 @@ const App = () => {
       <div className='container'>
         <div className='sec8'>
           <div className='sec8-1'>
-            <h2>What will you Get?</h2>
+            <h2>What will you get?</h2>
             <p>
               <img src='./images/Tick-Square.png' alt='checkbox' /> Solid
-              understanding of generative AI from basics to advanced
+              understanding of generative AI from basics to advanced.
             </p>
             <p>
               <img src='./images/Tick-Square.png' alt='checkbox' /> You would
