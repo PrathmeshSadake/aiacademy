@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useRef, useState } from "react";
 import toast from "react-hot-toast";
 import emailjs from "@emailjs/browser";
 
-const ContactForm = () => {
+const ContactForm = ({ close }) => {
   const form = useRef();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -62,9 +63,17 @@ const ContactForm = () => {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      <button type='submit' id='submitButton'>
-        Enquire Now
-      </button>
+      {close ? (
+        <close>
+          <button type='submit' id='submitButton'>
+            Enquire Now
+          </button>
+        </close>
+      ) : (
+        <button type='submit' id='submitButton'>
+          Enquire Now
+        </button>
+      )}
     </form>
   );
 };

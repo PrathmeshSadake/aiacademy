@@ -1,4 +1,5 @@
 import ContactForm from "./components/ContactForm";
+import DialogDemo from "./components/Dialog";
 
 const App = () => {
   return (
@@ -84,7 +85,8 @@ const App = () => {
             </div>
           </div>
           <span className='button'>
-            <button id='brochure'>Apply Now</button>
+            {/* <button id='brochure'>Apply Now</button> */}
+            <DialogDemo />
             <img src='./images/users.png' alt='users' />
           </span>
         </div>
@@ -258,7 +260,8 @@ const App = () => {
                 <div className='content'>
                   <p style={{ marginBottom: 0 }}>Entrepreneurs/CxOs</p>
                   <div className='day'>
-                    Who wish to understand the complete capabilities of GPT-powered AI
+                    Who wish to understand the complete capabilities of
+                    GPT-powered AI
                   </div>
                 </div>
               </div>
@@ -814,7 +817,9 @@ const App = () => {
               <p>
                 Satvik is an IIT Delhi graduate with over 4 years of experience
                 in various Data Science & AI roles with multi national banks.
-                His keen interest is in the field of AI education, where he explores the potential applications of AI. Satvik is also the founder of ‘Build Fast with AI’ a community helping individuals
+                His keen interest is in the field of AI education, where he
+                explores the potential applications of AI. Satvik is also the
+                founder of ‘Build Fast with AI’ a community helping individuals
                 build AI applications. Satvik is currently consulting many
                 startups across various domains in building their AI
                 capabilities.
