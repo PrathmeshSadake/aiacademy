@@ -3,7 +3,7 @@ import DialogDemo from "./components/Dialog";
 
 const App = () => {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <header className='notification-background'>
         <div className='container'>
           <p>
