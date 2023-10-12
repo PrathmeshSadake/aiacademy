@@ -34,11 +34,11 @@ const App = () => {
 
       <div className='sec1'>
         <h1>
-          Bengaluru&apos;s 1st offline
+          India&apos;s 1st
           <br />
           <div>
             <img src='./images/chatgpt.png' alt='chtgpt' />
-            ChatGPT Powerd AI Course
+            ChatGpt and Generative AI Full Course
           </div>
         </h1>
       </div>
