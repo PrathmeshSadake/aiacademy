@@ -7,7 +7,9 @@ const App = () => {
       <header className='notification-background'>
         <div className='container'>
           <p>
-            Enroll now to avail the Early Bird offer.{" "}
+            <DialogDemo
+              buttonText={"Enroll now to avail the Early Bird offer."}
+            />{" "}
             <span className='time'>Limited Seats only</span>
           </p>
         </div>
@@ -86,7 +88,7 @@ const App = () => {
           </div>
           <span className='button'>
             {/* <button id='brochure'>Apply Now</button> */}
-            <DialogDemo />
+            <DialogDemo buttonText={"Apply Now"} />
             <img src='./images/users.png' alt='users' />
           </span>
         </div>
@@ -98,11 +100,9 @@ const App = () => {
                 <div className='upcomingbatches'>
                   <div className='batch'>
                     <div className='date'>
-                      <span className="mark">Sold out</span>
+                      <span className='mark'>Sold out</span>
                       <input type='radio' name='batchSelection' />
-                      <p>
-                      29th Sep
-                      </p>
+                      <p>29th Sep</p>
                     </div>
                     <div className='timings'>
                       <p>
@@ -116,9 +116,7 @@ const App = () => {
                   <div className='batch'>
                     <div className='date'>
                       <input type='radio' name='batchSelection' />
-                      <p>
-                      28th Oct
-                      </p>
+                      <p>28th Oct</p>
                     </div>
                     <div className='timings'>
                       <p>
@@ -132,9 +130,7 @@ const App = () => {
                   <div className='batch'>
                     <div className='date'>
                       <input type='radio' name='batchSelection' />
-                      <p>
-                      18th Nov
-                      </p>
+                      <p>18th Nov</p>
                     </div>
                     <div className='timings'>
                       <p>
@@ -229,7 +225,8 @@ const App = () => {
             </div>
             <div className='col-md-6 col-xs-12'>
               <span className='button'>
-                <button>Apply Now</button>
+                <DialogDemo buttonText={"Apply Now"} />
+
                 <img src='./images/users.png' alt='users' className='users' />
               </span>
               <p className='link' style={{ padding: "10px 0" }}>
@@ -268,7 +265,9 @@ const App = () => {
                   <img src='./images/developers.png' />
                 </div>
                 <div className='content'>
-                  <p style={{ marginBottom: 0 }}>Developers / PMs / Architects</p>
+                  <p style={{ marginBottom: 0 }}>
+                    Developers / PMs / Architects
+                  </p>
                   <div className='day'>To be on top of the game</div>
                 </div>
               </div>

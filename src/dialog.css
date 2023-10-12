@@ -15,7 +15,7 @@ input {
   border: 0;
   padding: 10px;
   border-bottom: 1px solid #49454f;
-  margin: 15px 0px;
+  margin: 10px 0px;
   background-color: #efefef;
 }
 .form button {
@@ -26,6 +26,17 @@ input {
   color: white;
   padding: 10px;
   text-align: center;
+}
+.preferredMode {
+  margin: 10px 0px;
+}
+.preferredMode select {
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  margin-top: 5px;
+  border-bottom: 1px solid #49454f;
+  background-color: #efefef;
 }
 
 .DialogOverlay {
