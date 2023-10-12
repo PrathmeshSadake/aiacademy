@@ -121,8 +121,8 @@ body {
   width: 50px;
 }
 .whotakecourse .batch .content {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
   word-wrap: break-word;
 }
 .whotakecourse .batch .content div:not(.day) {
@@ -134,7 +134,7 @@ body {
 }
 .whotakecourse .batch .content .day {
   color: #979797;
-  font-size: 16px;
+  font-size: 18px;
 }
 .sec3 {
   padding: 100px 0;
@@ -300,7 +300,7 @@ body {
 }
 .sec6 .batch .content p {
   margin-bottom: 0;
-  font-size: 24px;
+  font-size: 20px;
 }
 .sec6 h2 {
   text-align: center;
@@ -339,7 +339,7 @@ body {
   width: 100%;
 }
 .sec7 {
-  margin: 80px 0;
+  margin: 80px 0 30px 0;
   background-color: white;
   padding: 25px 0;
 }
@@ -388,7 +388,7 @@ body {
 .sec9,
 .sec9 .sec9-2ndrow,
 .sec9 .sec9-2ndrow .text {
-  margin: 50px 0;
+  margin: 25px 0;
 }
 .logo {
   width: 150px;
@@ -475,7 +475,7 @@ body {
   width: 50%;
 }
 .sec11 {
-  padding: 50px 0;
+  padding: 50px 25px;
 }
 .sec11 .row {
   align-items: center;
@@ -605,7 +605,7 @@ body {
     padding: 20px;
   }
   .sec6 {
-    margin: 50px 10px;
+    margin: 20px 10px;
   }
   .sec6 div.features {
     display: block;
@@ -613,6 +613,28 @@ body {
   .sec6 div.features img {
     width: 30px;
     padding: 15px 0;
+  }
+  .sec8 {
+    padding: 0 20px;
+  }
+  .sec12 {
+    padding: 0 15px;
+  }
+  .whotakecourse .batch .content {
+    font-size: 14px;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  .whotakecourse .batch .content div:not(.day) {
+    font-size: 14px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0;
+    text-wrap: wrap;
+  }
+  .whotakecourse .batch .content .day {
+    color: #979797;
+    font-size: 12px;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -722,7 +744,7 @@ body {
     padding: 15px;
     margin: 30px 0;
   }
-  .locationmobile button {
+  .map-button {
     display: flex;
     justify-content: center;
     background-color: #1f4943;
@@ -732,10 +754,11 @@ body {
     padding: 5px 10px;
     border: 1px solid #1f4943;
     font-size: 14px;
+    text-decoration: none;
   }
   .locationmobile p {
     font-size: 14px;
-    padding-left: 23px;
+    /* padding-left: 23px; */
   }
   .sec5 .row div:nth-child(2) {
     order: 1;
@@ -893,5 +916,3 @@ body {
     padding: 0;
   }
 }
-
-

@@ -170,15 +170,19 @@ const App = () => {
                   <p>
                     Location :{" "}
                     <span>
-                      Indiranagar, Bangalore{" "}
-                      <button>
+                      Indiranagar, Bangalore <br />
+                      <a
+                        className='map-button'
+                        href='https://maps.app.goo.gl/VNpkQTbmwrx8ibjQ9'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
                         <img src='./images/google-maps.png' alt='google maps' />
                         <span>AI Academy</span>
-                      </button>
+                      </a>
                       <br /> (25 Mts away from Indiranagar Metro){" "}
                     </span>
                   </p>
-                  <a href='https://maps.app.goo.gl/kvbVhE41XVFuBG1H7'></a>
                 </div>
               </div>
             </div>
