@@ -16,7 +16,7 @@ const App = () => {
       </header>
       <header>
         <div className='header'>
-          <div className='containers'>
+          <div className='containers logo-container'>
             <img className='logo' src='./images/logo.png' alt='logo' />
             <div className='contacts'>
               <a href='tel:+919035175757'>
@@ -38,7 +38,9 @@ const App = () => {
           <br />
           <div>
             <img src='./images/chatgpt.png' alt='chtgpt' />
-            ChatGpt and Generative AI Full Course
+            ChatGpt and Generative AI
+            <br />
+            Full Course
           </div>
         </h1>
       </div>
