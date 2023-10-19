@@ -36,7 +36,7 @@ const App = () => {
           <br />
           <div>
             <img src='./images/chatgpt.png' alt='chtgpt' />
-            ChatGPT Powerd AI Course
+            ChatGPT Powered AI Course
           </div>
         </h1>
       </div>
@@ -86,7 +86,7 @@ const App = () => {
           </div>
           <span className='button'>
             {/* <button id='brochure'>Apply Now</button> */}
-            <DialogDemo />
+            <DialogDemo buttonText={"Apply Now"} />
             <img src='./images/users.png' alt='users' />
           </span>
         </div>
