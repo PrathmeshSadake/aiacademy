@@ -3,20 +3,18 @@ import DialogDemo from "./components/Dialog";
 
 const App = () => {
   return (
-    <div style={{ width: "100%" }}>
+    <div>
       <header className='notification-background'>
         <div className='container'>
           <p>
-            <DialogDemo
-              buttonText={"Enroll now to avail the Early Bird offer."}
-            />{" "}
+            Enroll now to avail the Early Bird offer.{" "}
             <span className='time'>Limited Seats only</span>
           </p>
         </div>
       </header>
       <header>
         <div className='header'>
-          <div className='containers logo-container'>
+          <div className='containers'>
             <img className='logo' src='./images/logo.png' alt='logo' />
             <div className='contacts'>
               <a href='tel:+919035175757'>
@@ -38,9 +36,7 @@ const App = () => {
           <br />
           <div>
             <img src='./images/chatgpt.png' alt='chtgpt' />
-            ChatGpt and Generative AI
-            <br />
-            Full Course
+            ChatGPT Powerd AI Course
           </div>
         </h1>
       </div>
@@ -90,7 +86,7 @@ const App = () => {
           </div>
           <span className='button'>
             {/* <button id='brochure'>Apply Now</button> */}
-            <DialogDemo buttonText={"Apply Now"} />
+            <DialogDemo />
             <img src='./images/users.png' alt='users' />
           </span>
         </div>
@@ -172,19 +168,15 @@ const App = () => {
                   <p>
                     Location :{" "}
                     <span>
-                      Indiranagar, Bangalore <br />
-                      <a
-                        className='map-button'
-                        href='https://maps.app.goo.gl/VNpkQTbmwrx8ibjQ9'
-                        target='_blank'
-                        rel='noreferrer'
-                      >
+                      Indiranagar, Bangalore{" "}
+                      <a>
                         <img src='./images/google-maps.png' alt='google maps' />
                         <span>AI Academy</span>
                       </a>
                       <br /> (25 Mts away from Indiranagar Metro){" "}
                     </span>
                   </p>
+                  <a href='https://maps.app.goo.gl/kvbVhE41XVFuBG1H7'></a>
                 </div>
               </div>
             </div>
@@ -226,13 +218,12 @@ const App = () => {
                 <span className='price'>
                   <span>&#8377;</span>20,999
                 </span>
-                <span className='fullprice'>Oct 20th Onwards</span>
+                <span className='fullprice'>Oct 24th Onwards</span>
               </span>
             </div>
             <div className='col-md-6 col-xs-12'>
               <span className='button'>
-                <DialogDemo buttonText={"Apply Now"} />
-
+                <button>Apply Now</button>
                 <img src='./images/users.png' alt='users' className='users' />
               </span>
               <p className='link' style={{ padding: "10px 0" }}>
