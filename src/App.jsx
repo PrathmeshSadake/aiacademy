@@ -36,7 +36,7 @@ const App = () => {
           <br />
           <div>
             <img src='./images/chatgpt.png' alt='chtgpt' />
-            ChatGPT Powered AI Course
+            Generative AI and ChatGPT Full Course
           </div>
         </h1>
       </div>
@@ -114,7 +114,7 @@ const App = () => {
                   <div className='batch'>
                     <div className='date'>
                       <input type='radio' name='batchSelection' />
-                      <p>28th Oct</p>
+                      <p>18th Nov</p>
                     </div>
                     <div className='timings'>
                       <p>
@@ -128,7 +128,7 @@ const App = () => {
                   <div className='batch'>
                     <div className='date'>
                       <input type='radio' name='batchSelection' />
-                      <p>18th Nov</p>
+                      <p>2nd Dec</p>
                     </div>
                     <div className='timings'>
                       <p>
