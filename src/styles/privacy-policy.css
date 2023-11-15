@@ -1,0 +1,22 @@
+.PrivacyPage {
+  margin: 0 auto;
+  max-width: 3xl;
+  padding: 5rem;
+}
+
+.PrivacyPage h1 {
+  margin-bottom: 4px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.PrivacyPage p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.PrivacyPage h2 {
+  margin-bottom: 4px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
