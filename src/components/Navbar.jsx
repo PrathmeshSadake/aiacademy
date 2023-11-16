@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div>
@@ -12,7 +14,9 @@ const Navbar = () => {
       <header>
         <div className='header'>
           <div className='containers'>
-            <img className='logo' src='./images/logo.png' alt='logo' />
+            <Link to='/'>
+              <img className='logo' src='./images/logo.png' alt='logo' />
+            </Link>
             <div className='contacts'>
               <a href='tel:+919035175757'>
                 <img src='./images/call.png' alt='call' />{" "}
