@@ -467,7 +467,7 @@ const Home = () => {
                   aria-controls='secCollapseOne'
                 >
                   <h2>Week 1</h2>
-                  <p>October 28th | 10:30 AM - 02:30 PM</p>
+                  <p>Nov 25th | 10:30 AM - 02:30 PM</p>
                 </div>
               </h2>
               <div
@@ -529,7 +529,7 @@ const Home = () => {
                   aria-controls='secCollapseTwo'
                 >
                   <h2>Week 2</h2>
-                  <p>Nov 4th | 10:30 AM - 02:30 PM</p>
+                  <p>Dec 2nd | 10:30 AM - 02:30 PM</p>
                 </button>
               </h2>
               <div
@@ -594,7 +594,7 @@ const Home = () => {
                 aria-controls='secCollapseThree'
               >
                 <h2>Week 3</h2>
-                <p>Nov 18th | 10:30 AM - 02:30 PM</p>
+                <p>Dec 9th | 10:30 AM - 02:30 PM</p>
               </button>
             </h2>
             <div
@@ -658,7 +658,7 @@ const Home = () => {
                 aria-controls='collapseThree'
               >
                 <h2>Week 4</h2>
-                <p>Nov 25th | 10:30 AM - 02:30 PM</p>
+                <p>Dec 16th | 10:30 AM - 02:30 PM</p>
               </button>
             </h2>
             <div
@@ -721,7 +721,7 @@ const Home = () => {
                 aria-controls='seccollapseFive'
               >
                 <h2>Week 5</h2>
-                <p>Dec 2nd | 10:30 AM - 02:30 PM</p>
+                <p>Dec 23rd | 10:30 AM - 02:30 PM</p>
               </button>
             </h2>
             <div
